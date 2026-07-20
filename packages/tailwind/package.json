@@ -1,0 +1,39 @@
+{
+  "name": "@khameleon/tailwind",
+  "version": "0.1.6",
+  "private": false,
+  "description": "Framework-agnostic Tailwind distribution of the Khameleon design system: full token layer, Tailwind v4 theme bridge, and a v3 preset. No React or StyleX required.",
+  "author": "the404",
+  "license": "MIT",
+  "homepage": "https://github.com/the404-nf/khameleon#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the404-nf/khameleon.git",
+    "directory": "packages/tailwind"
+  },
+  "bugs": {
+    "url": "https://github.com/the404-nf/khameleon/issues"
+  },
+  "keywords": [
+    "khameleon",
+    "tailwind",
+    "tailwindcss",
+    "design-system",
+    "design-tokens"
+  ],
+  "sideEffects": false,
+  "exports": {
+    "./tokens.css": "./dist/tokens.css",
+    "./theme.css": "./dist/theme.css",
+    "./preset": "./dist/preset.cjs"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "@khameleon/core": "0.1.6"
+  }
+}
