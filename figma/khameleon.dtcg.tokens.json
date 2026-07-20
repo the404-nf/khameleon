@@ -1,0 +1,1564 @@
+{
+  "border-width": {
+    "$type": "dimension",
+    "$value": "1px",
+    "$extensions": {
+      "design.khameleon.modes": {
+        "light": "1px",
+        "dark": "1px"
+      },
+      "design.khameleon.cssVariable": "--border-width"
+    }
+  },
+  "color": {
+    "accent": {
+      "$type": "color",
+      "$value": "#0E7C66",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "#0E7C66",
+          "dark": "#53D7B0"
+        },
+        "design.khameleon.cssVariable": "--color-accent"
+      }
+    },
+    "on": {
+      "accent": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#FFFFFF",
+            "dark": "#06251B"
+          },
+          "design.khameleon.cssVariable": "--color-on-accent"
+        }
+      },
+      "dark": {
+        "$type": "color",
+        "$value": "#F3F7F4",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#F3F7F4",
+            "dark": "#F3F7F4"
+          },
+          "design.khameleon.cssVariable": "--color-on-dark"
+        }
+      },
+      "light": {
+        "$type": "color",
+        "$value": "#16281F",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#16281F",
+            "dark": "#16281F"
+          },
+          "design.khameleon.cssVariable": "--color-on-light"
+        }
+      },
+      "success": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#FFFFFF",
+            "dark": "#0A2410"
+          },
+          "design.khameleon.cssVariable": "--color-on-success"
+        }
+      },
+      "error": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#FFFFFF",
+            "dark": "#33080C"
+          },
+          "design.khameleon.cssVariable": "--color-on-error"
+        }
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "#2A1F04",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#2A1F04",
+            "dark": "#2A1F04"
+          },
+          "design.khameleon.cssVariable": "--color-on-warning"
+        }
+      }
+    },
+    "neutral": {
+      "$type": "color",
+      "$value": "#16281F0F",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "#16281F0F",
+          "dark": "#D7E9DD14"
+        },
+        "design.khameleon.cssVariable": "--color-neutral"
+      }
+    },
+    "background": {
+      "surface": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#FFFFFF",
+            "dark": "#111A15"
+          },
+          "design.khameleon.cssVariable": "--color-background-surface"
+        }
+      },
+      "body": {
+        "$type": "color",
+        "$value": "#F3F7F4",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#F3F7F4",
+            "dark": "#0A100D"
+          },
+          "design.khameleon.cssVariable": "--color-background-body"
+        }
+      },
+      "muted": {
+        "$type": "color",
+        "$value": "#E9F0EB",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#E9F0EB",
+            "dark": "#1A2820"
+          },
+          "design.khameleon.cssVariable": "--color-background-muted"
+        }
+      },
+      "card": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#FFFFFF",
+            "dark": "#15211B"
+          },
+          "design.khameleon.cssVariable": "--color-background-card"
+        }
+      },
+      "popover": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#FFFFFF",
+            "dark": "#1A2820"
+          },
+          "design.khameleon.cssVariable": "--color-background-popover"
+        }
+      },
+      "inverted": {
+        "$type": "color",
+        "$value": "#16281F",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#16281F",
+            "dark": "#D7E9DD"
+          },
+          "design.khameleon.cssVariable": "--color-background-inverted"
+        }
+      },
+      "error": {
+        "inverted": {
+          "$type": "color",
+          "$value": "#AA071E",
+          "$extensions": {
+            "design.khameleon.modes": {
+              "light": "#AA071E",
+              "dark": "#E3193B"
+            },
+            "design.khameleon.cssVariable": "--color-background-error-inverted"
+          }
+        }
+      },
+      "blue": {
+        "$type": "color",
+        "$value": "#1F5F9E26",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#1F5F9E26",
+            "dark": "#7FB4E826"
+          },
+          "design.khameleon.cssVariable": "--color-background-blue"
+        }
+      },
+      "cyan": {
+        "$type": "color",
+        "$value": "#0E6E7C26",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#0E6E7C26",
+            "dark": "#5CC8D726"
+          },
+          "design.khameleon.cssVariable": "--color-background-cyan"
+        }
+      },
+      "gray": {
+        "$type": "color",
+        "$value": "#51685B26",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#51685B26",
+            "dark": "#46584D33"
+          },
+          "design.khameleon.cssVariable": "--color-background-gray"
+        }
+      },
+      "green": {
+        "$type": "color",
+        "$value": "#2C8C3C26",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#2C8C3C26",
+            "dark": "#5FCE7426"
+          },
+          "design.khameleon.cssVariable": "--color-background-green"
+        }
+      },
+      "orange": {
+        "$type": "color",
+        "$value": "#A05A1826",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#A05A1826",
+            "dark": "#E8A66026"
+          },
+          "design.khameleon.cssVariable": "--color-background-orange"
+        }
+      },
+      "pink": {
+        "$type": "color",
+        "$value": "#B84A8026",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#B84A8026",
+            "dark": "#EE86B426"
+          },
+          "design.khameleon.cssVariable": "--color-background-pink"
+        }
+      },
+      "purple": {
+        "$type": "color",
+        "$value": "#6D4FC426",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#6D4FC426",
+            "dark": "#B9A5F226"
+          },
+          "design.khameleon.cssVariable": "--color-background-purple"
+        }
+      },
+      "red": {
+        "$type": "color",
+        "$value": "#CE334026",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#CE334026",
+            "dark": "#FF7B8426"
+          },
+          "design.khameleon.cssVariable": "--color-background-red"
+        }
+      },
+      "teal": {
+        "$type": "color",
+        "$value": "#0E7C6626",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#0E7C6626",
+            "dark": "#53D7B026"
+          },
+          "design.khameleon.cssVariable": "--color-background-teal"
+        }
+      },
+      "yellow": {
+        "$type": "color",
+        "$value": "#7A621026",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#7A621026",
+            "dark": "#D9BC4A26"
+          },
+          "design.khameleon.cssVariable": "--color-background-yellow"
+        }
+      }
+    },
+    "overlay": {
+      "$type": "color",
+      "$value": "#10241B99",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "#10241B99",
+          "dark": "#050B08CC"
+        },
+        "design.khameleon.cssVariable": "--color-overlay"
+      }
+    },
+    "text": {
+      "primary": {
+        "$type": "color",
+        "$value": "#16281F",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#16281F",
+            "dark": "#D7E9DD"
+          },
+          "design.khameleon.cssVariable": "--color-text-primary"
+        }
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "#51685B",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#51685B",
+            "dark": "#8FA697"
+          },
+          "design.khameleon.cssVariable": "--color-text-secondary"
+        }
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "#A9BCB0",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#A9BCB0",
+            "dark": "#46584D"
+          },
+          "design.khameleon.cssVariable": "--color-text-disabled"
+        }
+      },
+      "accent": {
+        "$type": "color",
+        "$value": "#0B6653",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#0B6653",
+            "dark": "#53D7B0"
+          },
+          "design.khameleon.cssVariable": "--color-text-accent"
+        }
+      },
+      "blue": {
+        "$type": "color",
+        "$value": "#194D80",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#194D80",
+            "dark": "#95C3EE"
+          },
+          "design.khameleon.cssVariable": "--color-text-blue"
+        }
+      },
+      "cyan": {
+        "$type": "color",
+        "$value": "#0B5762",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#0B5762",
+            "dark": "#74D3E0"
+          },
+          "design.khameleon.cssVariable": "--color-text-cyan"
+        }
+      },
+      "gray": {
+        "$type": "color",
+        "$value": "#16281F",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#16281F",
+            "dark": "#D7E9DD"
+          },
+          "design.khameleon.cssVariable": "--color-text-gray"
+        }
+      },
+      "green": {
+        "$type": "color",
+        "$value": "#226E2F",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#226E2F",
+            "dark": "#78DA8A"
+          },
+          "design.khameleon.cssVariable": "--color-text-green"
+        }
+      },
+      "orange": {
+        "$type": "color",
+        "$value": "#824812",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#824812",
+            "dark": "#EFB878"
+          },
+          "design.khameleon.cssVariable": "--color-text-orange"
+        }
+      },
+      "pink": {
+        "$type": "color",
+        "$value": "#973B68",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#973B68",
+            "dark": "#F49AC2"
+          },
+          "design.khameleon.cssVariable": "--color-text-pink"
+        }
+      },
+      "purple": {
+        "$type": "color",
+        "$value": "#57409E",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#57409E",
+            "dark": "#C9B9F6"
+          },
+          "design.khameleon.cssVariable": "--color-text-purple"
+        }
+      },
+      "red": {
+        "$type": "color",
+        "$value": "#A82934",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#A82934",
+            "dark": "#FF959C"
+          },
+          "design.khameleon.cssVariable": "--color-text-red"
+        }
+      },
+      "teal": {
+        "$type": "color",
+        "$value": "#0B6653",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#0B6653",
+            "dark": "#6FE0BF"
+          },
+          "design.khameleon.cssVariable": "--color-text-teal"
+        }
+      },
+      "yellow": {
+        "$type": "color",
+        "$value": "#63500D",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#63500D",
+            "dark": "#E3CB6B"
+          },
+          "design.khameleon.cssVariable": "--color-text-yellow"
+        }
+      }
+    },
+    "icon": {
+      "accent": {
+        "$type": "color",
+        "$value": "#0E7C66",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#0E7C66",
+            "dark": "#53D7B0"
+          },
+          "design.khameleon.cssVariable": "--color-icon-accent"
+        }
+      },
+      "primary": {
+        "$type": "color",
+        "$value": "#16281F",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#16281F",
+            "dark": "#D7E9DD"
+          },
+          "design.khameleon.cssVariable": "--color-icon-primary"
+        }
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "#51685B",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#51685B",
+            "dark": "#8FA697"
+          },
+          "design.khameleon.cssVariable": "--color-icon-secondary"
+        }
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "#A9BCB0",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#A9BCB0",
+            "dark": "#46584D"
+          },
+          "design.khameleon.cssVariable": "--color-icon-disabled"
+        }
+      },
+      "blue": {
+        "$type": "color",
+        "$value": "#1F5F9E",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#1F5F9E",
+            "dark": "#7FB4E8"
+          },
+          "design.khameleon.cssVariable": "--color-icon-blue"
+        }
+      },
+      "cyan": {
+        "$type": "color",
+        "$value": "#0E6E7C",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#0E6E7C",
+            "dark": "#5CC8D7"
+          },
+          "design.khameleon.cssVariable": "--color-icon-cyan"
+        }
+      },
+      "gray": {
+        "$type": "color",
+        "$value": "#51685B",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#51685B",
+            "dark": "#8FA697"
+          },
+          "design.khameleon.cssVariable": "--color-icon-gray"
+        }
+      },
+      "green": {
+        "$type": "color",
+        "$value": "#2C8C3C",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#2C8C3C",
+            "dark": "#5FCE74"
+          },
+          "design.khameleon.cssVariable": "--color-icon-green"
+        }
+      },
+      "orange": {
+        "$type": "color",
+        "$value": "#A05A18",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#A05A18",
+            "dark": "#E8A660"
+          },
+          "design.khameleon.cssVariable": "--color-icon-orange"
+        }
+      },
+      "pink": {
+        "$type": "color",
+        "$value": "#B84A80",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#B84A80",
+            "dark": "#EE86B4"
+          },
+          "design.khameleon.cssVariable": "--color-icon-pink"
+        }
+      },
+      "purple": {
+        "$type": "color",
+        "$value": "#6D4FC4",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#6D4FC4",
+            "dark": "#B9A5F2"
+          },
+          "design.khameleon.cssVariable": "--color-icon-purple"
+        }
+      },
+      "red": {
+        "$type": "color",
+        "$value": "#CE3340",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#CE3340",
+            "dark": "#FF7B84"
+          },
+          "design.khameleon.cssVariable": "--color-icon-red"
+        }
+      },
+      "teal": {
+        "$type": "color",
+        "$value": "#0E7C66",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#0E7C66",
+            "dark": "#53D7B0"
+          },
+          "design.khameleon.cssVariable": "--color-icon-teal"
+        }
+      },
+      "yellow": {
+        "$type": "color",
+        "$value": "#7A6210",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#7A6210",
+            "dark": "#D9BC4A"
+          },
+          "design.khameleon.cssVariable": "--color-icon-yellow"
+        }
+      }
+    },
+    "success": {
+      "$type": "color",
+      "$value": "#27803A",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "#27803A",
+          "dark": "#5FCE74"
+        },
+        "design.khameleon.cssVariable": "--color-success"
+      }
+    },
+    "error": {
+      "$type": "color",
+      "$value": "#CE3340",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "#CE3340",
+          "dark": "#FF7B84"
+        },
+        "design.khameleon.cssVariable": "--color-error"
+      }
+    },
+    "warning": {
+      "$type": "color",
+      "$value": "#E9A013",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "#E9A013",
+          "dark": "#F5C351"
+        },
+        "design.khameleon.cssVariable": "--color-warning"
+      }
+    },
+    "border": {
+      "$type": "color",
+      "$value": "#DCE6DF",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "#DCE6DF",
+          "dark": "#8FA69726"
+        },
+        "design.khameleon.cssVariable": "--color-border"
+      }
+    },
+    "skeleton": {
+      "$type": "color",
+      "$value": "#DCE6DF",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "#DCE6DF",
+          "dark": "#2A3A31"
+        },
+        "design.khameleon.cssVariable": "--color-skeleton"
+      }
+    },
+    "track": {
+      "$type": "color",
+      "$value": "#CCD3DB",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "#CCD3DB",
+          "dark": "#5A5E66"
+        },
+        "design.khameleon.cssVariable": "--color-track"
+      }
+    },
+    "shadow": {
+      "$type": "color",
+      "$value": "#10241B1A",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "#10241B1A",
+          "dark": "#0000004D"
+        },
+        "design.khameleon.cssVariable": "--color-shadow"
+      }
+    },
+    "tint": {
+      "hover": {
+        "$type": "color",
+        "$value": "black",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "black",
+            "dark": "white"
+          },
+          "design.khameleon.cssVariable": "--color-tint-hover"
+        }
+      }
+    },
+    "syntax": {
+      "keyword": {
+        "$type": "color",
+        "$value": "#6D4FC4",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#6D4FC4",
+            "dark": "#B9A5F2"
+          },
+          "design.khameleon.cssVariable": "--color-syntax-keyword"
+        }
+      },
+      "string": {
+        "$type": "color",
+        "$value": "#0E7C66",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#0E7C66",
+            "dark": "#53D7B0"
+          },
+          "design.khameleon.cssVariable": "--color-syntax-string"
+        }
+      },
+      "comment": {
+        "$type": "color",
+        "$value": "#6E8377",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#6E8377",
+            "dark": "#7E948A"
+          },
+          "design.khameleon.cssVariable": "--color-syntax-comment"
+        }
+      },
+      "number": {
+        "$type": "color",
+        "$value": "#A05A18",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#A05A18",
+            "dark": "#E8A660"
+          },
+          "design.khameleon.cssVariable": "--color-syntax-number"
+        }
+      },
+      "function": {
+        "$type": "color",
+        "$value": "#1F5F9E",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#1F5F9E",
+            "dark": "#7FB4E8"
+          },
+          "design.khameleon.cssVariable": "--color-syntax-function"
+        }
+      },
+      "type": {
+        "$type": "color",
+        "$value": "#6D4FC4",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#6D4FC4",
+            "dark": "#B9A5F2"
+          },
+          "design.khameleon.cssVariable": "--color-syntax-type"
+        }
+      },
+      "variable": {
+        "$type": "color",
+        "$value": "#16281F",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#16281F",
+            "dark": "#D7E9DD"
+          },
+          "design.khameleon.cssVariable": "--color-syntax-variable"
+        }
+      },
+      "operator": {
+        "$type": "color",
+        "$value": "#51685B",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#51685B",
+            "dark": "#8FA697"
+          },
+          "design.khameleon.cssVariable": "--color-syntax-operator"
+        }
+      },
+      "constant": {
+        "$type": "color",
+        "$value": "#A05A18",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#A05A18",
+            "dark": "#E8A660"
+          },
+          "design.khameleon.cssVariable": "--color-syntax-constant"
+        }
+      },
+      "tag": {
+        "$type": "color",
+        "$value": "#B03540",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#B03540",
+            "dark": "#F08A92"
+          },
+          "design.khameleon.cssVariable": "--color-syntax-tag"
+        }
+      },
+      "attribute": {
+        "$type": "color",
+        "$value": "#7A6210",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#7A6210",
+            "dark": "#D9BC4A"
+          },
+          "design.khameleon.cssVariable": "--color-syntax-attribute"
+        }
+      },
+      "property": {
+        "$type": "color",
+        "$value": "#0E6E7C",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#0E6E7C",
+            "dark": "#5CC8D7"
+          },
+          "design.khameleon.cssVariable": "--color-syntax-property"
+        }
+      },
+      "punctuation": {
+        "$type": "color",
+        "$value": "#A9BCB0",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#A9BCB0",
+            "dark": "#46584D"
+          },
+          "design.khameleon.cssVariable": "--color-syntax-punctuation"
+        }
+      },
+      "background": {
+        "$type": "color",
+        "$value": "#F3F7F4",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "#F3F7F4",
+            "dark": "#0A100D"
+          },
+          "design.khameleon.cssVariable": "--color-syntax-background"
+        }
+      }
+    }
+  },
+  "duration": {
+    "fast": {
+      "min": {
+        "$type": "string",
+        "$value": "95ms",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "95ms",
+            "dark": "95ms"
+          },
+          "design.khameleon.cssVariable": "--duration-fast-min"
+        }
+      },
+      "_": {
+        "$type": "string",
+        "$value": "120ms",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "120ms",
+            "dark": "120ms"
+          },
+          "design.khameleon.cssVariable": "--duration-fast"
+        }
+      },
+      "max": {
+        "$type": "string",
+        "$value": "150ms",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "150ms",
+            "dark": "150ms"
+          },
+          "design.khameleon.cssVariable": "--duration-fast-max"
+        }
+      }
+    },
+    "medium": {
+      "min": {
+        "$type": "string",
+        "$value": "225ms",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "225ms",
+            "dark": "225ms"
+          },
+          "design.khameleon.cssVariable": "--duration-medium-min"
+        }
+      },
+      "_": {
+        "$type": "string",
+        "$value": "280ms",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "280ms",
+            "dark": "280ms"
+          },
+          "design.khameleon.cssVariable": "--duration-medium"
+        }
+      },
+      "max": {
+        "$type": "string",
+        "$value": "350ms",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "350ms",
+            "dark": "350ms"
+          },
+          "design.khameleon.cssVariable": "--duration-medium-max"
+        }
+      }
+    },
+    "slow": {
+      "min": {
+        "$type": "string",
+        "$value": "480ms",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "480ms",
+            "dark": "480ms"
+          },
+          "design.khameleon.cssVariable": "--duration-slow-min"
+        }
+      },
+      "_": {
+        "$type": "string",
+        "$value": "600ms",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "600ms",
+            "dark": "600ms"
+          },
+          "design.khameleon.cssVariable": "--duration-slow"
+        }
+      },
+      "max": {
+        "$type": "string",
+        "$value": "750ms",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "750ms",
+            "dark": "750ms"
+          },
+          "design.khameleon.cssVariable": "--duration-slow-max"
+        }
+      }
+    }
+  },
+  "font": {
+    "family": {
+      "body": {
+        "$type": "fontFamily",
+        "$value": "\"Albert Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "\"Albert Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+            "dark": "\"Albert Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+          },
+          "design.khameleon.cssVariable": "--font-family-body"
+        }
+      },
+      "code": {
+        "$type": "fontFamily",
+        "$value": "\"JetBrains Mono\", \"SF Mono\", Monaco, Consolas, monospace",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "\"JetBrains Mono\", \"SF Mono\", Monaco, Consolas, monospace",
+            "dark": "\"JetBrains Mono\", \"SF Mono\", Monaco, Consolas, monospace"
+          },
+          "design.khameleon.cssVariable": "--font-family-code"
+        }
+      },
+      "heading": {
+        "$type": "fontFamily",
+        "$value": "\"Space Grotesk\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "\"Space Grotesk\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+            "dark": "\"Space Grotesk\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif"
+          },
+          "design.khameleon.cssVariable": "--font-family-heading"
+        }
+      }
+    },
+    "size": {
+      "4xs": {
+        "$type": "dimension",
+        "$value": "0.375rem",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "0.375rem",
+            "dark": "0.375rem"
+          },
+          "design.khameleon.cssVariable": "--font-size-4xs"
+        }
+      },
+      "3xs": {
+        "$type": "dimension",
+        "$value": "0.4375rem",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "0.4375rem",
+            "dark": "0.4375rem"
+          },
+          "design.khameleon.cssVariable": "--font-size-3xs"
+        }
+      },
+      "2xs": {
+        "$type": "dimension",
+        "$value": "0.5rem",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "0.5rem",
+            "dark": "0.5rem"
+          },
+          "design.khameleon.cssVariable": "--font-size-2xs"
+        }
+      },
+      "xs": {
+        "$type": "dimension",
+        "$value": "0.625rem",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "0.625rem",
+            "dark": "0.625rem"
+          },
+          "design.khameleon.cssVariable": "--font-size-xs"
+        }
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": "0.75rem",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "0.75rem",
+            "dark": "0.75rem"
+          },
+          "design.khameleon.cssVariable": "--font-size-sm"
+        }
+      },
+      "base": {
+        "$type": "dimension",
+        "$value": "0.9375rem",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "0.9375rem",
+            "dark": "0.9375rem"
+          },
+          "design.khameleon.cssVariable": "--font-size-base"
+        }
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": "1.125rem",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "1.125rem",
+            "dark": "1.125rem"
+          },
+          "design.khameleon.cssVariable": "--font-size-lg"
+        }
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": "1.375rem",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "1.375rem",
+            "dark": "1.375rem"
+          },
+          "design.khameleon.cssVariable": "--font-size-xl"
+        }
+      },
+      "2xl": {
+        "$type": "dimension",
+        "$value": "1.6875rem",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "1.6875rem",
+            "dark": "1.6875rem"
+          },
+          "design.khameleon.cssVariable": "--font-size-2xl"
+        }
+      },
+      "3xl": {
+        "$type": "dimension",
+        "$value": "2.0625rem",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "2.0625rem",
+            "dark": "2.0625rem"
+          },
+          "design.khameleon.cssVariable": "--font-size-3xl"
+        }
+      },
+      "4xl": {
+        "$type": "dimension",
+        "$value": "2.5625rem",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "2.5625rem",
+            "dark": "2.5625rem"
+          },
+          "design.khameleon.cssVariable": "--font-size-4xl"
+        }
+      },
+      "5xl": {
+        "$type": "dimension",
+        "$value": "3.0625rem",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "3.0625rem",
+            "dark": "3.0625rem"
+          },
+          "design.khameleon.cssVariable": "--font-size-5xl"
+        }
+      }
+    },
+    "weight": {
+      "normal": {
+        "$type": "fontWeight",
+        "$value": "400",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "400",
+            "dark": "400"
+          },
+          "design.khameleon.cssVariable": "--font-weight-normal"
+        }
+      },
+      "medium": {
+        "$type": "fontWeight",
+        "$value": "500",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "500",
+            "dark": "500"
+          },
+          "design.khameleon.cssVariable": "--font-weight-medium"
+        }
+      },
+      "semibold": {
+        "$type": "fontWeight",
+        "$value": "600",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "600",
+            "dark": "600"
+          },
+          "design.khameleon.cssVariable": "--font-weight-semibold"
+        }
+      },
+      "bold": {
+        "$type": "fontWeight",
+        "$value": "700",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "700",
+            "dark": "700"
+          },
+          "design.khameleon.cssVariable": "--font-weight-bold"
+        }
+      }
+    }
+  },
+  "radius": {
+    "none": {
+      "$type": "dimension",
+      "$value": "0px",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "0px",
+          "dark": "0px"
+        },
+        "design.khameleon.cssVariable": "--radius-none"
+      }
+    },
+    "inner": {
+      "$type": "dimension",
+      "$value": "6px",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "6px",
+          "dark": "6px"
+        },
+        "design.khameleon.cssVariable": "--radius-inner"
+      }
+    },
+    "element": {
+      "$type": "dimension",
+      "$value": "10px",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "10px",
+          "dark": "10px"
+        },
+        "design.khameleon.cssVariable": "--radius-element"
+      }
+    },
+    "container": {
+      "$type": "dimension",
+      "$value": "16px",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "16px",
+          "dark": "16px"
+        },
+        "design.khameleon.cssVariable": "--radius-container"
+      }
+    },
+    "page": {
+      "$type": "dimension",
+      "$value": "28px",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "28px",
+          "dark": "28px"
+        },
+        "design.khameleon.cssVariable": "--radius-page"
+      }
+    },
+    "chat": {
+      "$type": "dimension",
+      "$value": "28px",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "28px",
+          "dark": "28px"
+        },
+        "design.khameleon.cssVariable": "--radius-chat"
+      }
+    },
+    "full": {
+      "$type": "dimension",
+      "$value": "9999px",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "9999px",
+          "dark": "9999px"
+        },
+        "design.khameleon.cssVariable": "--radius-full"
+      }
+    }
+  },
+  "shadow": {
+    "low": {
+      "$type": "shadow",
+      "$value": "0 1px 2px #10241B0D, 0 3px 8px #10241B14",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "0 1px 2px #10241B0D, 0 3px 8px #10241B14",
+          "dark": "0 1px 2px #10241B0D, 0 3px 8px #10241B14"
+        },
+        "design.khameleon.cssVariable": "--shadow-low"
+      }
+    },
+    "med": {
+      "$type": "shadow",
+      "$value": "0 2px 4px #10241B0D, 0 6px 16px #10241B1A",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "0 2px 4px #10241B0D, 0 6px 16px #10241B1A",
+          "dark": "0 2px 4px #10241B0D, 0 6px 16px #10241B1A"
+        },
+        "design.khameleon.cssVariable": "--shadow-med"
+      }
+    },
+    "high": {
+      "$type": "shadow",
+      "$value": "0 4px 8px #10241B14, 0 16px 32px #10241B26",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "0 4px 8px #10241B14, 0 16px 32px #10241B26",
+          "dark": "0 4px 8px #10241B14, 0 16px 32px #10241B26"
+        },
+        "design.khameleon.cssVariable": "--shadow-high"
+      }
+    },
+    "inset": {
+      "hover": {
+        "$type": "shadow",
+        "$value": "inset 0px 0px 0px 2px #0E7C6630",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "inset 0px 0px 0px 2px #0E7C6630",
+            "dark": "inset 0px 0px 0px 2px #0E7C6630"
+          },
+          "design.khameleon.cssVariable": "--shadow-inset-hover"
+        }
+      },
+      "selected": {
+        "$type": "shadow",
+        "$value": "inset 0px 0px 0px 2px #0E7C6650",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "inset 0px 0px 0px 2px #0E7C6650",
+            "dark": "inset 0px 0px 0px 2px #0E7C6650"
+          },
+          "design.khameleon.cssVariable": "--shadow-inset-selected"
+        }
+      },
+      "success": {
+        "$type": "shadow",
+        "$value": "inset 0px 0px 0px 2px #2C8C3C50",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "inset 0px 0px 0px 2px #2C8C3C50",
+            "dark": "inset 0px 0px 0px 2px #2C8C3C50"
+          },
+          "design.khameleon.cssVariable": "--shadow-inset-success"
+        }
+      },
+      "warning": {
+        "$type": "shadow",
+        "$value": "inset 0px 0px 0px 2px #E9A01350",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "inset 0px 0px 0px 2px #E9A01350",
+            "dark": "inset 0px 0px 0px 2px #E9A01350"
+          },
+          "design.khameleon.cssVariable": "--shadow-inset-warning"
+        }
+      },
+      "error": {
+        "$type": "shadow",
+        "$value": "inset 0px 0px 0px 2px #CE334050",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "inset 0px 0px 0px 2px #CE334050",
+            "dark": "inset 0px 0px 0px 2px #CE334050"
+          },
+          "design.khameleon.cssVariable": "--shadow-inset-error"
+        }
+      }
+    }
+  },
+  "size": {
+    "element": {
+      "sm": {
+        "$type": "dimension",
+        "$value": "28px",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "28px",
+            "dark": "28px"
+          },
+          "design.khameleon.cssVariable": "--size-element-sm"
+        }
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": "32px",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "32px",
+            "dark": "32px"
+          },
+          "design.khameleon.cssVariable": "--size-element-md"
+        }
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": "36px",
+        "$extensions": {
+          "design.khameleon.modes": {
+            "light": "36px",
+            "dark": "36px"
+          },
+          "design.khameleon.cssVariable": "--size-element-lg"
+        }
+      }
+    }
+  },
+  "spacing": {
+    "0": {
+      "$type": "dimension",
+      "$value": "0px",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "0px",
+          "dark": "0px"
+        },
+        "design.khameleon.cssVariable": "--spacing-0"
+      }
+    },
+    "1": {
+      "$type": "dimension",
+      "$value": "4px",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "4px",
+          "dark": "4px"
+        },
+        "design.khameleon.cssVariable": "--spacing-1"
+      }
+    },
+    "2": {
+      "$type": "dimension",
+      "$value": "8px",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "8px",
+          "dark": "8px"
+        },
+        "design.khameleon.cssVariable": "--spacing-2"
+      }
+    },
+    "3": {
+      "$type": "dimension",
+      "$value": "12px",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "12px",
+          "dark": "12px"
+        },
+        "design.khameleon.cssVariable": "--spacing-3"
+      }
+    },
+    "4": {
+      "$type": "dimension",
+      "$value": "16px",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "16px",
+          "dark": "16px"
+        },
+        "design.khameleon.cssVariable": "--spacing-4"
+      }
+    },
+    "5": {
+      "$type": "dimension",
+      "$value": "20px",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "20px",
+          "dark": "20px"
+        },
+        "design.khameleon.cssVariable": "--spacing-5"
+      }
+    },
+    "6": {
+      "$type": "dimension",
+      "$value": "24px",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "24px",
+          "dark": "24px"
+        },
+        "design.khameleon.cssVariable": "--spacing-6"
+      }
+    },
+    "7": {
+      "$type": "dimension",
+      "$value": "28px",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "28px",
+          "dark": "28px"
+        },
+        "design.khameleon.cssVariable": "--spacing-7"
+      }
+    },
+    "8": {
+      "$type": "dimension",
+      "$value": "32px",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "32px",
+          "dark": "32px"
+        },
+        "design.khameleon.cssVariable": "--spacing-8"
+      }
+    },
+    "9": {
+      "$type": "dimension",
+      "$value": "36px",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "36px",
+          "dark": "36px"
+        },
+        "design.khameleon.cssVariable": "--spacing-9"
+      }
+    },
+    "10": {
+      "$type": "dimension",
+      "$value": "40px",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "40px",
+          "dark": "40px"
+        },
+        "design.khameleon.cssVariable": "--spacing-10"
+      }
+    },
+    "11": {
+      "$type": "dimension",
+      "$value": "44px",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "44px",
+          "dark": "44px"
+        },
+        "design.khameleon.cssVariable": "--spacing-11"
+      }
+    },
+    "12": {
+      "$type": "dimension",
+      "$value": "48px",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "48px",
+          "dark": "48px"
+        },
+        "design.khameleon.cssVariable": "--spacing-12"
+      }
+    },
+    "0-5": {
+      "$type": "dimension",
+      "$value": "2px",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "2px",
+          "dark": "2px"
+        },
+        "design.khameleon.cssVariable": "--spacing-0-5"
+      }
+    },
+    "1-5": {
+      "$type": "dimension",
+      "$value": "6px",
+      "$extensions": {
+        "design.khameleon.modes": {
+          "light": "6px",
+          "dark": "6px"
+        },
+        "design.khameleon.cssVariable": "--spacing-1-5"
+      }
+    }
+  }
+}
