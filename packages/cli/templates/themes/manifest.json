@@ -39,6 +39,18 @@
       ]
     },
     {
+      "slug": "khameleon",
+      "displayName": "Khameleon",
+      "description": "The Khameleon signature theme — emerald spine, jungle ink, iridescent violet. Adaptive by nature.",
+      "maintained": false,
+      "entry": "khameleonTheme.ts",
+      "exportName": "khameleonTheme",
+      "files": [
+        "khameleonTheme.ts",
+        "icons.tsx"
+      ]
+    },
+    {
       "slug": "matcha",
       "displayName": "Matcha",
       "description": "Earthy greens with a calm, organic feel. Naturalistic and grounded, great for wellness or content-first apps.",

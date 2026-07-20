@@ -4,7 +4,7 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "build": "pnpm -F @khameleon/build build && pnpm -F @khameleon/core build && pnpm -F @khameleon/lab build && pnpm -F @khameleon/charts build && pnpm -F @khameleon/vega build && pnpm -F @khameleon/theme-neutral build && pnpm -F @khameleon/theme-matcha build && pnpm -F @khameleon/theme-stone build && pnpm -F @khameleon/theme-gothic build && pnpm -F @khameleon/theme-chocolate build && pnpm -F @khameleon/theme-y2k build && pnpm -F @khameleon/theme-butter build && pnpm bundle:cli-themes",
+    "build": "pnpm -F @khameleon/build build && pnpm -F @khameleon/core build && pnpm -F @khameleon/lab build && pnpm -F @khameleon/charts build && pnpm -F @khameleon/vega build && pnpm -F @khameleon/theme-neutral build && pnpm -F @khameleon/theme-matcha build && pnpm -F @khameleon/theme-stone build && pnpm -F @khameleon/theme-gothic build && pnpm -F @khameleon/theme-chocolate build && pnpm -F @khameleon/theme-y2k build && pnpm -F @khameleon/theme-butter build && pnpm -F @khameleon/theme-khameleon build && pnpm bundle:cli-themes",
     "bundle:cli-themes": "node scripts/generate-cli-themes.mjs",
     "dev": "pnpm -F @khameleon/storybook dev",
     "test": "vitest run",
