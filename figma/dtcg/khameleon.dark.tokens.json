@@ -318,41 +318,5 @@
         "$value": "#101314"
       }
     }
-  },
-  "shadow": {
-    "low": {
-      "$type": "shadow",
-      "$value": "0 1px 2px #14181B0D, 0 3px 8px #14181B14"
-    },
-    "med": {
-      "$type": "shadow",
-      "$value": "0 2px 4px #14181B0D, 0 6px 16px #14181B1A"
-    },
-    "high": {
-      "$type": "shadow",
-      "$value": "0 4px 8px #14181B14, 0 16px 32px #14181B26"
-    },
-    "inset": {
-      "hover": {
-        "$type": "shadow",
-        "$value": "inset 0px 0px 0px 2px #14181B30"
-      },
-      "selected": {
-        "$type": "shadow",
-        "$value": "inset 0px 0px 0px 2px #14181B50"
-      },
-      "success": {
-        "$type": "shadow",
-        "$value": "inset 0px 0px 0px 2px #38754A50"
-      },
-      "warning": {
-        "$type": "shadow",
-        "$value": "inset 0px 0px 0px 2px #C7973350"
-      },
-      "error": {
-        "$type": "shadow",
-        "$value": "inset 0px 0px 0px 2px #A8434D50"
-      }
-    }
   }
 }

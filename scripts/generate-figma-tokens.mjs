@@ -202,19 +202,33 @@ console.log(`generate-figma-tokens: ${count} vars → figma/khameleon.tokens-stu
 // Per-mode pure-DTCG files (for Figma-native/DTCG importers that don't read
 // custom extensions): base (mode-independent) + light + dark.
 // ---------------------------------------------------------------------------
+// Strict variable-only exports: colors and dimensions. Shadows, font
+// families/weights, and durations are deliberately EXCLUDED — they are not
+// clean DTCG variable types and belong in Figma styles, not variables.
+// Dimensions use the current W3C draft object form: {value, unit}.
 const dtcgPure = {base: {}, light: {}, dark: {}};
+const toDimension = v => {
+  const m = String(v).match(/^(-?[\d.]+)(px|rem)$/);
+  if (!m) return null;
+  const n = parseFloat(m[1]);
+  return m[2] === 'rem'
+    ? {value: Math.round(n * 16 * 100) / 100, unit: 'px'}
+    : {value: n, unit: 'px'};
+};
 for (const [name, rawValue] of merged) {
   if (name.startsWith('--text-') || name.startsWith('--transition-') ||
-      name.startsWith('--ease-')) continue;
+      name.startsWith('--ease-') || name.startsWith('--shadow-') ||
+      name.startsWith('--duration-') || name.startsWith('--font-family-') ||
+      name.startsWith('--font-weight-')) continue;
   const type = tokenType(name, rawValue);
   const modes = splitModes(rawValue);
   const pathArr = varToPath(name);
-  const $type = dtcgTypeMap[type];
-  if (type === 'color' || type === 'boxShadow') {
-    setDeep(dtcgPure.light, pathArr, {$type, $value: modes.light});
-    setDeep(dtcgPure.dark, pathArr, {$type, $value: modes.dark});
+  if (type === 'color') {
+    setDeep(dtcgPure.light, pathArr, {$type: 'color', $value: modes.light});
+    setDeep(dtcgPure.dark, pathArr, {$type: 'color', $value: modes.dark});
   } else {
-    setDeep(dtcgPure.base, pathArr, {$type, $value: modes.light});
+    const dim = toDimension(modes.light);
+    if (dim) setDeep(dtcgPure.base, pathArr, {$type: 'dimension', $value: dim});
   }
 }
 const DTCG_DIR = path.join(OUT_DIR, 'dtcg');
