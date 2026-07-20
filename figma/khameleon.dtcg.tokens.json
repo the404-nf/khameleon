@@ -13,11 +13,11 @@
   "color": {
     "accent": {
       "$type": "color",
-      "$value": "#0E7C66",
+      "$value": "#14181B",
       "$extensions": {
         "design.khameleon.modes": {
-          "light": "#0E7C66",
-          "dark": "#53D7B0"
+          "light": "#14181B",
+          "dark": "#E8F1F6"
         },
         "design.khameleon.cssVariable": "--color-accent"
       }
@@ -29,29 +29,29 @@
         "$extensions": {
           "design.khameleon.modes": {
             "light": "#FFFFFF",
-            "dark": "#06251B"
+            "dark": "#101314"
           },
           "design.khameleon.cssVariable": "--color-on-accent"
         }
       },
       "dark": {
         "$type": "color",
-        "$value": "#F3F7F4",
+        "$value": "#E8F1F6",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#F3F7F4",
-            "dark": "#F3F7F4"
+            "light": "#E8F1F6",
+            "dark": "#E8F1F6"
           },
           "design.khameleon.cssVariable": "--color-on-dark"
         }
       },
       "light": {
         "$type": "color",
-        "$value": "#16281F",
+        "$value": "#14181B",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#16281F",
-            "dark": "#16281F"
+            "light": "#14181B",
+            "dark": "#14181B"
           },
           "design.khameleon.cssVariable": "--color-on-light"
         }
@@ -62,7 +62,7 @@
         "$extensions": {
           "design.khameleon.modes": {
             "light": "#FFFFFF",
-            "dark": "#0A2410"
+            "dark": "#0F1B12"
           },
           "design.khameleon.cssVariable": "--color-on-success"
         }
@@ -73,18 +73,18 @@
         "$extensions": {
           "design.khameleon.modes": {
             "light": "#FFFFFF",
-            "dark": "#33080C"
+            "dark": "#2A0C0F"
           },
           "design.khameleon.cssVariable": "--color-on-error"
         }
       },
       "warning": {
         "$type": "color",
-        "$value": "#2A1F04",
+        "$value": "#231A04",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#2A1F04",
-            "dark": "#2A1F04"
+            "light": "#231A04",
+            "dark": "#231A04"
           },
           "design.khameleon.cssVariable": "--color-on-warning"
         }
@@ -92,11 +92,11 @@
     },
     "neutral": {
       "$type": "color",
-      "$value": "#16281F0F",
+      "$value": "#14181B0F",
       "$extensions": {
         "design.khameleon.modes": {
-          "light": "#16281F0F",
-          "dark": "#D7E9DD14"
+          "light": "#14181B0F",
+          "dark": "#E8F1F61A"
         },
         "design.khameleon.cssVariable": "--color-neutral"
       }
@@ -108,29 +108,29 @@
         "$extensions": {
           "design.khameleon.modes": {
             "light": "#FFFFFF",
-            "dark": "#111A15"
+            "dark": "#16191B"
           },
           "design.khameleon.cssVariable": "--color-background-surface"
         }
       },
       "body": {
         "$type": "color",
-        "$value": "#F3F7F4",
+        "$value": "#EEF2F5",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#F3F7F4",
-            "dark": "#0A100D"
+            "light": "#EEF2F5",
+            "dark": "#101314"
           },
           "design.khameleon.cssVariable": "--color-background-body"
         }
       },
       "muted": {
         "$type": "color",
-        "$value": "#E9F0EB",
+        "$value": "#E3E9ED",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#E9F0EB",
-            "dark": "#1A2820"
+            "light": "#E3E9ED",
+            "dark": "#24292D"
           },
           "design.khameleon.cssVariable": "--color-background-muted"
         }
@@ -141,7 +141,7 @@
         "$extensions": {
           "design.khameleon.modes": {
             "light": "#FFFFFF",
-            "dark": "#15211B"
+            "dark": "#1A1E20"
           },
           "design.khameleon.cssVariable": "--color-background-card"
         }
@@ -152,18 +152,18 @@
         "$extensions": {
           "design.khameleon.modes": {
             "light": "#FFFFFF",
-            "dark": "#1A2820"
+            "dark": "#24292D"
           },
           "design.khameleon.cssVariable": "--color-background-popover"
         }
       },
       "inverted": {
         "$type": "color",
-        "$value": "#16281F",
+        "$value": "#14181B",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#16281F",
-            "dark": "#D7E9DD"
+            "light": "#14181B",
+            "dark": "#E8F1F6"
           },
           "design.khameleon.cssVariable": "--color-background-inverted"
         }
@@ -183,110 +183,110 @@
       },
       "blue": {
         "$type": "color",
-        "$value": "#1F5F9E26",
+        "$value": "#44598C26",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#1F5F9E26",
-            "dark": "#7FB4E826"
+            "light": "#44598C26",
+            "dark": "#8AA1D826"
           },
           "design.khameleon.cssVariable": "--color-background-blue"
         }
       },
       "cyan": {
         "$type": "color",
-        "$value": "#0E6E7C26",
+        "$value": "#3B738626",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#0E6E7C26",
-            "dark": "#5CC8D726"
+            "light": "#3B738626",
+            "dark": "#83BFCF26"
           },
           "design.khameleon.cssVariable": "--color-background-cyan"
         }
       },
       "gray": {
         "$type": "color",
-        "$value": "#51685B26",
+        "$value": "#56606826",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#51685B26",
-            "dark": "#46584D33"
+            "light": "#56606826",
+            "dark": "#49505633"
           },
           "design.khameleon.cssVariable": "--color-background-gray"
         }
       },
       "green": {
         "$type": "color",
-        "$value": "#2C8C3C26",
+        "$value": "#4E734726",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#2C8C3C26",
-            "dark": "#5FCE7426"
+            "light": "#4E734726",
+            "dark": "#A3C98726"
           },
           "design.khameleon.cssVariable": "--color-background-green"
         }
       },
       "orange": {
         "$type": "color",
-        "$value": "#A05A1826",
+        "$value": "#A0622C26",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#A05A1826",
-            "dark": "#E8A66026"
+            "light": "#A0622C26",
+            "dark": "#D9A87226"
           },
           "design.khameleon.cssVariable": "--color-background-orange"
         }
       },
       "pink": {
         "$type": "color",
-        "$value": "#B84A8026",
+        "$value": "#A5577526",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#B84A8026",
-            "dark": "#EE86B426"
+            "light": "#A5577526",
+            "dark": "#D89CB726"
           },
           "design.khameleon.cssVariable": "--color-background-pink"
         }
       },
       "purple": {
         "$type": "color",
-        "$value": "#6D4FC426",
+        "$value": "#6A4E9626",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#6D4FC426",
-            "dark": "#B9A5F226"
+            "light": "#6A4E9626",
+            "dark": "#C39ADB26"
           },
           "design.khameleon.cssVariable": "--color-background-purple"
         }
       },
       "red": {
         "$type": "color",
-        "$value": "#CE334026",
+        "$value": "#9E465026",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#CE334026",
-            "dark": "#FF7B8426"
+            "light": "#9E465026",
+            "dark": "#D9758026"
           },
           "design.khameleon.cssVariable": "--color-background-red"
         }
       },
       "teal": {
         "$type": "color",
-        "$value": "#0E7C6626",
+        "$value": "#3E726426",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#0E7C6626",
-            "dark": "#53D7B026"
+            "light": "#3E726426",
+            "dark": "#7CC5B326"
           },
           "design.khameleon.cssVariable": "--color-background-teal"
         }
       },
       "yellow": {
         "$type": "color",
-        "$value": "#7A621026",
+        "$value": "#8A6D1E26",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#7A621026",
-            "dark": "#D9BC4A26"
+            "light": "#8A6D1E26",
+            "dark": "#DEC07426"
           },
           "design.khameleon.cssVariable": "--color-background-yellow"
         }
@@ -294,11 +294,11 @@
     },
     "overlay": {
       "$type": "color",
-      "$value": "#10241B99",
+      "$value": "#14181B99",
       "$extensions": {
         "design.khameleon.modes": {
-          "light": "#10241B99",
-          "dark": "#050B08CC"
+          "light": "#14181B99",
+          "dark": "#101314CC"
         },
         "design.khameleon.cssVariable": "--color-overlay"
       }
@@ -306,154 +306,154 @@
     "text": {
       "primary": {
         "$type": "color",
-        "$value": "#16281F",
+        "$value": "#14181B",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#16281F",
-            "dark": "#D7E9DD"
+            "light": "#14181B",
+            "dark": "#E8F1F6"
           },
           "design.khameleon.cssVariable": "--color-text-primary"
         }
       },
       "secondary": {
         "$type": "color",
-        "$value": "#51685B",
+        "$value": "#566068",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#51685B",
-            "dark": "#8FA697"
+            "light": "#566068",
+            "dark": "#96A0AB"
           },
           "design.khameleon.cssVariable": "--color-text-secondary"
         }
       },
       "disabled": {
         "$type": "color",
-        "$value": "#A9BCB0",
+        "$value": "#AEB9C1",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#A9BCB0",
-            "dark": "#46584D"
+            "light": "#AEB9C1",
+            "dark": "#495056"
           },
           "design.khameleon.cssVariable": "--color-text-disabled"
         }
       },
       "accent": {
         "$type": "color",
-        "$value": "#0B6653",
+        "$value": "#14181B",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#0B6653",
-            "dark": "#53D7B0"
+            "light": "#14181B",
+            "dark": "#E8F1F6"
           },
           "design.khameleon.cssVariable": "--color-text-accent"
         }
       },
       "blue": {
         "$type": "color",
-        "$value": "#194D80",
+        "$value": "#374874",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#194D80",
-            "dark": "#95C3EE"
+            "light": "#374874",
+            "dark": "#A4B7E2"
           },
           "design.khameleon.cssVariable": "--color-text-blue"
         }
       },
       "cyan": {
         "$type": "color",
-        "$value": "#0B5762",
+        "$value": "#2F5D6D",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#0B5762",
-            "dark": "#74D3E0"
+            "light": "#2F5D6D",
+            "dark": "#9BCDDA"
           },
           "design.khameleon.cssVariable": "--color-text-cyan"
         }
       },
       "gray": {
         "$type": "color",
-        "$value": "#16281F",
+        "$value": "#14181B",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#16281F",
-            "dark": "#D7E9DD"
+            "light": "#14181B",
+            "dark": "#E8F1F6"
           },
           "design.khameleon.cssVariable": "--color-text-gray"
         }
       },
       "green": {
         "$type": "color",
-        "$value": "#226E2F",
+        "$value": "#3E5C39",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#226E2F",
-            "dark": "#78DA8A"
+            "light": "#3E5C39",
+            "dark": "#B5D59D"
           },
           "design.khameleon.cssVariable": "--color-text-green"
         }
       },
       "orange": {
         "$type": "color",
-        "$value": "#824812",
+        "$value": "#815024",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#824812",
-            "dark": "#EFB878"
+            "light": "#815024",
+            "dark": "#E2B989"
           },
           "design.khameleon.cssVariable": "--color-text-orange"
         }
       },
       "pink": {
         "$type": "color",
-        "$value": "#973B68",
+        "$value": "#87465F",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#973B68",
-            "dark": "#F49AC2"
+            "light": "#87465F",
+            "dark": "#E2B0C6"
           },
           "design.khameleon.cssVariable": "--color-text-pink"
         }
       },
       "purple": {
         "$type": "color",
-        "$value": "#57409E",
+        "$value": "#553E7A",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#57409E",
-            "dark": "#C9B9F6"
+            "light": "#553E7A",
+            "dark": "#D1AEE4"
           },
           "design.khameleon.cssVariable": "--color-text-purple"
         }
       },
       "red": {
         "$type": "color",
-        "$value": "#A82934",
+        "$value": "#813940",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#A82934",
-            "dark": "#FF959C"
+            "light": "#813940",
+            "dark": "#E28E98"
           },
           "design.khameleon.cssVariable": "--color-text-red"
         }
       },
       "teal": {
         "$type": "color",
-        "$value": "#0B6653",
+        "$value": "#325C51",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#0B6653",
-            "dark": "#6FE0BF"
+            "light": "#325C51",
+            "dark": "#93D1C2"
           },
           "design.khameleon.cssVariable": "--color-text-teal"
         }
       },
       "yellow": {
         "$type": "color",
-        "$value": "#63500D",
+        "$value": "#705818",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#63500D",
-            "dark": "#E3CB6B"
+            "light": "#705818",
+            "dark": "#E5CC8C"
           },
           "design.khameleon.cssVariable": "--color-text-yellow"
         }
@@ -462,154 +462,154 @@
     "icon": {
       "accent": {
         "$type": "color",
-        "$value": "#0E7C66",
+        "$value": "#14181B",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#0E7C66",
-            "dark": "#53D7B0"
+            "light": "#14181B",
+            "dark": "#E8F1F6"
           },
           "design.khameleon.cssVariable": "--color-icon-accent"
         }
       },
       "primary": {
         "$type": "color",
-        "$value": "#16281F",
+        "$value": "#14181B",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#16281F",
-            "dark": "#D7E9DD"
+            "light": "#14181B",
+            "dark": "#E8F1F6"
           },
           "design.khameleon.cssVariable": "--color-icon-primary"
         }
       },
       "secondary": {
         "$type": "color",
-        "$value": "#51685B",
+        "$value": "#566068",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#51685B",
-            "dark": "#8FA697"
+            "light": "#566068",
+            "dark": "#96A0AB"
           },
           "design.khameleon.cssVariable": "--color-icon-secondary"
         }
       },
       "disabled": {
         "$type": "color",
-        "$value": "#A9BCB0",
+        "$value": "#AEB9C1",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#A9BCB0",
-            "dark": "#46584D"
+            "light": "#AEB9C1",
+            "dark": "#495056"
           },
           "design.khameleon.cssVariable": "--color-icon-disabled"
         }
       },
       "blue": {
         "$type": "color",
-        "$value": "#1F5F9E",
+        "$value": "#44598C",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#1F5F9E",
-            "dark": "#7FB4E8"
+            "light": "#44598C",
+            "dark": "#8AA1D8"
           },
           "design.khameleon.cssVariable": "--color-icon-blue"
         }
       },
       "cyan": {
         "$type": "color",
-        "$value": "#0E6E7C",
+        "$value": "#3B7386",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#0E6E7C",
-            "dark": "#5CC8D7"
+            "light": "#3B7386",
+            "dark": "#83BFCF"
           },
           "design.khameleon.cssVariable": "--color-icon-cyan"
         }
       },
       "gray": {
         "$type": "color",
-        "$value": "#51685B",
+        "$value": "#566068",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#51685B",
-            "dark": "#8FA697"
+            "light": "#566068",
+            "dark": "#96A0AB"
           },
           "design.khameleon.cssVariable": "--color-icon-gray"
         }
       },
       "green": {
         "$type": "color",
-        "$value": "#2C8C3C",
+        "$value": "#4E7347",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#2C8C3C",
-            "dark": "#5FCE74"
+            "light": "#4E7347",
+            "dark": "#A3C987"
           },
           "design.khameleon.cssVariable": "--color-icon-green"
         }
       },
       "orange": {
         "$type": "color",
-        "$value": "#A05A18",
+        "$value": "#A0622C",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#A05A18",
-            "dark": "#E8A660"
+            "light": "#A0622C",
+            "dark": "#D9A872"
           },
           "design.khameleon.cssVariable": "--color-icon-orange"
         }
       },
       "pink": {
         "$type": "color",
-        "$value": "#B84A80",
+        "$value": "#A55775",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#B84A80",
-            "dark": "#EE86B4"
+            "light": "#A55775",
+            "dark": "#D89CB7"
           },
           "design.khameleon.cssVariable": "--color-icon-pink"
         }
       },
       "purple": {
         "$type": "color",
-        "$value": "#6D4FC4",
+        "$value": "#6A4E96",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#6D4FC4",
-            "dark": "#B9A5F2"
+            "light": "#6A4E96",
+            "dark": "#C39ADB"
           },
           "design.khameleon.cssVariable": "--color-icon-purple"
         }
       },
       "red": {
         "$type": "color",
-        "$value": "#CE3340",
+        "$value": "#9E4650",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#CE3340",
-            "dark": "#FF7B84"
+            "light": "#9E4650",
+            "dark": "#D97580"
           },
           "design.khameleon.cssVariable": "--color-icon-red"
         }
       },
       "teal": {
         "$type": "color",
-        "$value": "#0E7C66",
+        "$value": "#3E7264",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#0E7C66",
-            "dark": "#53D7B0"
+            "light": "#3E7264",
+            "dark": "#7CC5B3"
           },
           "design.khameleon.cssVariable": "--color-icon-teal"
         }
       },
       "yellow": {
         "$type": "color",
-        "$value": "#7A6210",
+        "$value": "#8A6D1E",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#7A6210",
-            "dark": "#D9BC4A"
+            "light": "#8A6D1E",
+            "dark": "#DEC074"
           },
           "design.khameleon.cssVariable": "--color-icon-yellow"
         }
@@ -617,55 +617,55 @@
     },
     "success": {
       "$type": "color",
-      "$value": "#27803A",
+      "$value": "#38754A",
       "$extensions": {
         "design.khameleon.modes": {
-          "light": "#27803A",
-          "dark": "#5FCE74"
+          "light": "#38754A",
+          "dark": "#A3C987"
         },
         "design.khameleon.cssVariable": "--color-success"
       }
     },
     "error": {
       "$type": "color",
-      "$value": "#CE3340",
+      "$value": "#A8434D",
       "$extensions": {
         "design.khameleon.modes": {
-          "light": "#CE3340",
-          "dark": "#FF7B84"
+          "light": "#A8434D",
+          "dark": "#D97580"
         },
         "design.khameleon.cssVariable": "--color-error"
       }
     },
     "warning": {
       "$type": "color",
-      "$value": "#E9A013",
+      "$value": "#C79733",
       "$extensions": {
         "design.khameleon.modes": {
-          "light": "#E9A013",
-          "dark": "#F5C351"
+          "light": "#C79733",
+          "dark": "#DEC074"
         },
         "design.khameleon.cssVariable": "--color-warning"
       }
     },
     "border": {
       "$type": "color",
-      "$value": "#DCE6DF",
+      "$value": "#DDE4E9",
       "$extensions": {
         "design.khameleon.modes": {
-          "light": "#DCE6DF",
-          "dark": "#8FA69726"
+          "light": "#DDE4E9",
+          "dark": "#96A0AB26"
         },
         "design.khameleon.cssVariable": "--color-border"
       }
     },
     "skeleton": {
       "$type": "color",
-      "$value": "#DCE6DF",
+      "$value": "#DDE4E9",
       "$extensions": {
         "design.khameleon.modes": {
-          "light": "#DCE6DF",
-          "dark": "#2A3A31"
+          "light": "#DDE4E9",
+          "dark": "#2C3236"
         },
         "design.khameleon.cssVariable": "--color-skeleton"
       }
@@ -683,10 +683,10 @@
     },
     "shadow": {
       "$type": "color",
-      "$value": "#10241B1A",
+      "$value": "#14181B1A",
       "$extensions": {
         "design.khameleon.modes": {
-          "light": "#10241B1A",
+          "light": "#14181B1A",
           "dark": "#0000004D"
         },
         "design.khameleon.cssVariable": "--color-shadow"
@@ -708,154 +708,154 @@
     "syntax": {
       "keyword": {
         "$type": "color",
-        "$value": "#6D4FC4",
+        "$value": "#6A4E96",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#6D4FC4",
-            "dark": "#B9A5F2"
+            "light": "#6A4E96",
+            "dark": "#C39ADB"
           },
           "design.khameleon.cssVariable": "--color-syntax-keyword"
         }
       },
       "string": {
         "$type": "color",
-        "$value": "#0E7C66",
+        "$value": "#4E7347",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#0E7C66",
-            "dark": "#53D7B0"
+            "light": "#4E7347",
+            "dark": "#A3C987"
           },
           "design.khameleon.cssVariable": "--color-syntax-string"
         }
       },
       "comment": {
         "$type": "color",
-        "$value": "#6E8377",
+        "$value": "#8A949D",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#6E8377",
-            "dark": "#7E948A"
+            "light": "#8A949D",
+            "dark": "#6B7079"
           },
           "design.khameleon.cssVariable": "--color-syntax-comment"
         }
       },
       "number": {
         "$type": "color",
-        "$value": "#A05A18",
+        "$value": "#8A6D1E",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#A05A18",
-            "dark": "#E8A660"
+            "light": "#8A6D1E",
+            "dark": "#DEC074"
           },
           "design.khameleon.cssVariable": "--color-syntax-number"
         }
       },
       "function": {
         "$type": "color",
-        "$value": "#1F5F9E",
+        "$value": "#44598C",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#1F5F9E",
-            "dark": "#7FB4E8"
+            "light": "#44598C",
+            "dark": "#8AA1D8"
           },
           "design.khameleon.cssVariable": "--color-syntax-function"
         }
       },
       "type": {
         "$type": "color",
-        "$value": "#6D4FC4",
+        "$value": "#6A4E96",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#6D4FC4",
-            "dark": "#B9A5F2"
+            "light": "#6A4E96",
+            "dark": "#C39ADB"
           },
           "design.khameleon.cssVariable": "--color-syntax-type"
         }
       },
       "variable": {
         "$type": "color",
-        "$value": "#16281F",
+        "$value": "#14181B",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#16281F",
-            "dark": "#D7E9DD"
+            "light": "#14181B",
+            "dark": "#E8F1F6"
           },
           "design.khameleon.cssVariable": "--color-syntax-variable"
         }
       },
       "operator": {
         "$type": "color",
-        "$value": "#51685B",
+        "$value": "#566068",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#51685B",
-            "dark": "#8FA697"
+            "light": "#566068",
+            "dark": "#96A0AB"
           },
           "design.khameleon.cssVariable": "--color-syntax-operator"
         }
       },
       "constant": {
         "$type": "color",
-        "$value": "#A05A18",
+        "$value": "#8A6D1E",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#A05A18",
-            "dark": "#E8A660"
+            "light": "#8A6D1E",
+            "dark": "#E6B85E"
           },
           "design.khameleon.cssVariable": "--color-syntax-constant"
         }
       },
       "tag": {
         "$type": "color",
-        "$value": "#B03540",
+        "$value": "#9E4650",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#B03540",
-            "dark": "#F08A92"
+            "light": "#9E4650",
+            "dark": "#D97580"
           },
           "design.khameleon.cssVariable": "--color-syntax-tag"
         }
       },
       "attribute": {
         "$type": "color",
-        "$value": "#7A6210",
+        "$value": "#8A6D1E",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#7A6210",
-            "dark": "#D9BC4A"
+            "light": "#8A6D1E",
+            "dark": "#DEC074"
           },
           "design.khameleon.cssVariable": "--color-syntax-attribute"
         }
       },
       "property": {
         "$type": "color",
-        "$value": "#0E6E7C",
+        "$value": "#3E7264",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#0E6E7C",
-            "dark": "#5CC8D7"
+            "light": "#3E7264",
+            "dark": "#7CC5B3"
           },
           "design.khameleon.cssVariable": "--color-syntax-property"
         }
       },
       "punctuation": {
         "$type": "color",
-        "$value": "#A9BCB0",
+        "$value": "#AEB9C1",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#A9BCB0",
-            "dark": "#46584D"
+            "light": "#AEB9C1",
+            "dark": "#495056"
           },
           "design.khameleon.cssVariable": "--color-syntax-punctuation"
         }
       },
       "background": {
         "$type": "color",
-        "$value": "#F3F7F4",
+        "$value": "#EEF2F5",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "#F3F7F4",
-            "dark": "#0A100D"
+            "light": "#EEF2F5",
+            "dark": "#101314"
           },
           "design.khameleon.cssVariable": "--color-syntax-background"
         }
@@ -1268,33 +1268,33 @@
   "shadow": {
     "low": {
       "$type": "shadow",
-      "$value": "0 1px 2px #10241B0D, 0 3px 8px #10241B14",
+      "$value": "0 1px 2px #14181B0D, 0 3px 8px #14181B14",
       "$extensions": {
         "design.khameleon.modes": {
-          "light": "0 1px 2px #10241B0D, 0 3px 8px #10241B14",
-          "dark": "0 1px 2px #10241B0D, 0 3px 8px #10241B14"
+          "light": "0 1px 2px #14181B0D, 0 3px 8px #14181B14",
+          "dark": "0 1px 2px #14181B0D, 0 3px 8px #14181B14"
         },
         "design.khameleon.cssVariable": "--shadow-low"
       }
     },
     "med": {
       "$type": "shadow",
-      "$value": "0 2px 4px #10241B0D, 0 6px 16px #10241B1A",
+      "$value": "0 2px 4px #14181B0D, 0 6px 16px #14181B1A",
       "$extensions": {
         "design.khameleon.modes": {
-          "light": "0 2px 4px #10241B0D, 0 6px 16px #10241B1A",
-          "dark": "0 2px 4px #10241B0D, 0 6px 16px #10241B1A"
+          "light": "0 2px 4px #14181B0D, 0 6px 16px #14181B1A",
+          "dark": "0 2px 4px #14181B0D, 0 6px 16px #14181B1A"
         },
         "design.khameleon.cssVariable": "--shadow-med"
       }
     },
     "high": {
       "$type": "shadow",
-      "$value": "0 4px 8px #10241B14, 0 16px 32px #10241B26",
+      "$value": "0 4px 8px #14181B14, 0 16px 32px #14181B26",
       "$extensions": {
         "design.khameleon.modes": {
-          "light": "0 4px 8px #10241B14, 0 16px 32px #10241B26",
-          "dark": "0 4px 8px #10241B14, 0 16px 32px #10241B26"
+          "light": "0 4px 8px #14181B14, 0 16px 32px #14181B26",
+          "dark": "0 4px 8px #14181B14, 0 16px 32px #14181B26"
         },
         "design.khameleon.cssVariable": "--shadow-high"
       }
@@ -1302,55 +1302,55 @@
     "inset": {
       "hover": {
         "$type": "shadow",
-        "$value": "inset 0px 0px 0px 2px #0E7C6630",
+        "$value": "inset 0px 0px 0px 2px #14181B30",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "inset 0px 0px 0px 2px #0E7C6630",
-            "dark": "inset 0px 0px 0px 2px #0E7C6630"
+            "light": "inset 0px 0px 0px 2px #14181B30",
+            "dark": "inset 0px 0px 0px 2px #14181B30"
           },
           "design.khameleon.cssVariable": "--shadow-inset-hover"
         }
       },
       "selected": {
         "$type": "shadow",
-        "$value": "inset 0px 0px 0px 2px #0E7C6650",
+        "$value": "inset 0px 0px 0px 2px #14181B50",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "inset 0px 0px 0px 2px #0E7C6650",
-            "dark": "inset 0px 0px 0px 2px #0E7C6650"
+            "light": "inset 0px 0px 0px 2px #14181B50",
+            "dark": "inset 0px 0px 0px 2px #14181B50"
           },
           "design.khameleon.cssVariable": "--shadow-inset-selected"
         }
       },
       "success": {
         "$type": "shadow",
-        "$value": "inset 0px 0px 0px 2px #2C8C3C50",
+        "$value": "inset 0px 0px 0px 2px #38754A50",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "inset 0px 0px 0px 2px #2C8C3C50",
-            "dark": "inset 0px 0px 0px 2px #2C8C3C50"
+            "light": "inset 0px 0px 0px 2px #38754A50",
+            "dark": "inset 0px 0px 0px 2px #38754A50"
           },
           "design.khameleon.cssVariable": "--shadow-inset-success"
         }
       },
       "warning": {
         "$type": "shadow",
-        "$value": "inset 0px 0px 0px 2px #E9A01350",
+        "$value": "inset 0px 0px 0px 2px #C7973350",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "inset 0px 0px 0px 2px #E9A01350",
-            "dark": "inset 0px 0px 0px 2px #E9A01350"
+            "light": "inset 0px 0px 0px 2px #C7973350",
+            "dark": "inset 0px 0px 0px 2px #C7973350"
           },
           "design.khameleon.cssVariable": "--shadow-inset-warning"
         }
       },
       "error": {
         "$type": "shadow",
-        "$value": "inset 0px 0px 0px 2px #CE334050",
+        "$value": "inset 0px 0px 0px 2px #A8434D50",
         "$extensions": {
           "design.khameleon.modes": {
-            "light": "inset 0px 0px 0px 2px #CE334050",
-            "dark": "inset 0px 0px 0px 2px #CE334050"
+            "light": "inset 0px 0px 0px 2px #A8434D50",
+            "dark": "inset 0px 0px 0px 2px #A8434D50"
           },
           "design.khameleon.cssVariable": "--shadow-inset-error"
         }
