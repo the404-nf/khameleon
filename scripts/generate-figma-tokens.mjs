@@ -197,3 +197,32 @@ fs.writeFileSync(
 
 const count = merged.size;
 console.log(`generate-figma-tokens: ${count} vars → figma/khameleon.tokens-studio.json + khameleon.dtcg.tokens.json`);
+
+// ---------------------------------------------------------------------------
+// Per-mode pure-DTCG files (for Figma-native/DTCG importers that don't read
+// custom extensions): base (mode-independent) + light + dark.
+// ---------------------------------------------------------------------------
+const dtcgPure = {base: {}, light: {}, dark: {}};
+for (const [name, rawValue] of merged) {
+  if (name.startsWith('--text-') || name.startsWith('--transition-') ||
+      name.startsWith('--ease-')) continue;
+  const type = tokenType(name, rawValue);
+  const modes = splitModes(rawValue);
+  const pathArr = varToPath(name);
+  const $type = dtcgTypeMap[type];
+  if (type === 'color' || type === 'boxShadow') {
+    setDeep(dtcgPure.light, pathArr, {$type, $value: modes.light});
+    setDeep(dtcgPure.dark, pathArr, {$type, $value: modes.dark});
+  } else {
+    setDeep(dtcgPure.base, pathArr, {$type, $value: modes.light});
+  }
+}
+const DTCG_DIR = path.join(OUT_DIR, 'dtcg');
+fs.mkdirSync(DTCG_DIR, {recursive: true});
+for (const mode of ['base', 'light', 'dark']) {
+  fs.writeFileSync(
+    path.join(DTCG_DIR, `khameleon.${mode}.tokens.json`),
+    JSON.stringify(dtcgPure[mode], null, 2),
+  );
+}
+console.log('generate-figma-tokens: wrote figma/dtcg/khameleon.{base,light,dark}.tokens.json');
