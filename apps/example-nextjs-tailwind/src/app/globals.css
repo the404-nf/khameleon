@@ -1,0 +1,28 @@
+/* Copyright (c) Meta Platforms, Inc. and affiliates. */
+
+/*
+ * Layer order for Khameleon + Tailwind coexistence.
+ *
+ * Pre-declare ALL layers upfront so CSS resolves them in the right order.
+ * Without this, Khameleon layers (reset, khameleon-base, khameleon-theme) are created after
+ * Tailwind's declared layers and end up with higher priority — which means
+ * Khameleon component styles beat Tailwind utilities. That's backwards.
+ *
+ * Desired priority (lowest → highest):
+ *   reset → theme → base → khameleon-base → khameleon-theme → components → utilities
+ *
+ * - Khameleon reset is lowest (it uses :where() for zero specificity anyway)
+ * - Tailwind preflight (base) sits just above the reset
+ * - Khameleon component styles (khameleon-base, khameleon-theme) sit in the middle
+ * - Tailwind utilities win over everything — className="bg-red-500" works
+ * - Unlayered consumer CSS always wins over all layers
+ */
+@layer reset, theme, base, khameleon-base, khameleon-theme, components, utilities;
+
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "@khameleon/core/reset.css";
+@import "@khameleon/core/khameleon.css";
+@import "@khameleon/theme-neutral/theme.css";
+@import "@khameleon/core/tailwind-theme.css";
+@import "tailwindcss/utilities.css" layer(utilities);

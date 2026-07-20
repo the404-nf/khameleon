@@ -1,0 +1,42 @@
+// Copyright (c) Meta Platforms, Inc. and affiliates.
+
+'use client';
+
+import {useState} from 'react';
+import {MobileNav, MobileNavToggle} from '@khameleon/core/MobileNav';
+import {AppShellMobileContext} from '@khameleon/core/AppShell';
+import {SideNavItem, SideNavSection} from '@khameleon/core/SideNav';
+import {Icon} from '@khameleon/core/Icon';
+import {HStack} from '@khameleon/core/Layout';
+import {Text} from '@khameleon/core/Text';
+
+export default function MobileNavToggleBasic() {
+  const [isOpen, setIsOpen] = useState(false);
+  return (
+    <AppShellMobileContext.Provider
+      value={{
+        isMobile: true,
+        isMobileNavOpen: isOpen,
+        toggleMobileNav: () => setIsOpen(v => !v),
+        openMobileNav: () => setIsOpen(true),
+        closeMobileNav: () => setIsOpen(false),
+        isMobileNavEnabled: true,
+        hasAutoToggle: false,
+      }}>
+      <HStack gap={3} vAlign="center">
+        <MobileNavToggle label="Open menu">
+          <Icon icon="viewColumns" />
+        </MobileNavToggle>
+        <Text type="body" weight="bold">
+          Page title
+        </Text>
+      </HStack>
+      <MobileNav isOpen={isOpen} onOpenChange={setIsOpen} header="Navigation">
+        <SideNavSection title="Pages">
+          <SideNavItem label="Home" isSelected href="#" />
+          <SideNavItem label="Settings" href="#" />
+        </SideNavSection>
+      </MobileNav>
+    </AppShellMobileContext.Provider>
+  );
+}

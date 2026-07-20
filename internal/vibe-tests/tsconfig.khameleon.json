@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "react-jsx",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@khameleon/core": ["../../packages/core/src"],
+      "@khameleon/core/*": ["../../packages/core/src/*"],
+      "@khameleon/theme/neutral": ["../../packages/themes/neutral/src/source.ts"],
+      "@stylexjs/stylex": ["../../node_modules/@stylexjs/stylex"]
+    }
+  },
+  "include": ["**/*.tsx"]
+}

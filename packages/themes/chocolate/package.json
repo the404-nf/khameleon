@@ -1,0 +1,62 @@
+{
+  "name": "@khameleon/theme-chocolate",
+  "version": "0.1.6",
+  "displayName": "Chocolate Theme",
+  "private": false,
+  "description": "Warm chocolate theme for Khameleon — rich brown palette with Fraunces headings, Albert Sans body, and Lucide icons",
+  "author": "Meta Open Source",
+  "license": "MIT",
+  "homepage": "https://github.com/the404-nf/khameleon#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the404-nf/khameleon.git",
+    "directory": "packages/themes/chocolate"
+  },
+  "bugs": {
+    "url": "https://github.com/the404-nf/khameleon/issues"
+  },
+  "keywords": [
+    "khameleon",
+    "theme",
+    "design-system",
+    "lucide",
+    "design-tokens"
+  ],
+  "sideEffects": false,
+  "main": "./dist/source.js",
+  "types": "./dist/source.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/source.d.ts",
+      "import": "./dist/source.mjs",
+      "require": "./dist/source.js"
+    },
+    "./built": {
+      "types": "./dist/chocolate.d.ts",
+      "import": "./dist/chocolate.js",
+      "require": "./dist/chocolate.js"
+    },
+    "./theme.css": {
+      "types": "./theme.css.d.ts",
+      "default": "./dist/theme.css"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "khameleon theme build src/chocolateTheme.ts -o dist/theme.css && tsup && tsc --project tsconfig.build.json"
+  },
+  "dependencies": {
+    "lucide-react": "^1.18.0"
+  },
+  "peerDependencies": {
+    "@khameleon/core": "0.1.6",
+    "react": ">=19"
+  },
+  "devDependencies": {
+    "@khameleon/cli": "0.1.6"
+  },
+  "module": "./dist/source.mjs"
+}

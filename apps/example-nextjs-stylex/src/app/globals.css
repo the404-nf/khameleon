@@ -1,0 +1,10 @@
+/* Copyright (c) Meta Platforms, Inc. and affiliates. */
+
+@import "@khameleon/core/reset.css";
+@import "@khameleon/core/khameleon.css";
+@import "@khameleon/theme-neutral/theme.css";
+
+/* StyleX app styles are injected here. The postcss plugin declares
+   reset, khameleon-base, and khameleon-theme as layersBefore so the full layer order
+   is: reset < khameleon-base < khameleon-theme < stylex app layers. */
+@stylex;

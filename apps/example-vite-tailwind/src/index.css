@@ -1,0 +1,17 @@
+/* Copyright (c) Meta Platforms, Inc. and affiliates. */
+
+/*
+ * Layer order for Khameleon + Tailwind coexistence in Vite.
+ *
+ * Desired priority (lowest → highest):
+ *   reset → theme → base → khameleon-base → khameleon-theme → components → utilities
+ */
+@layer reset, theme, base, khameleon-base, khameleon-theme, components, utilities;
+
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "@khameleon/core/reset.css";
+@import "@khameleon/core/khameleon.css";
+@import "@khameleon/theme-neutral/theme.css";
+@import "@khameleon/core/tailwind-theme.css";
+@import "tailwindcss/utilities.css" layer(utilities);

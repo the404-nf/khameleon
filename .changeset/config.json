@@ -1,0 +1,24 @@
+{
+  "$schema": "https://unpkg.com/@changesets/config@3.0.0/schema.json",
+  "changelog": "./changelog.cjs",
+  "commit": false,
+  "fixed": [
+    [
+      "@khameleon/build",
+      "@khameleon/cli",
+      "@khameleon/core",
+      "@khameleon/theme-butter",
+      "@khameleon/theme-chocolate",
+      "@khameleon/theme-gothic",
+      "@khameleon/theme-matcha",
+      "@khameleon/theme-neutral",
+      "@khameleon/theme-stone",
+      "@khameleon/theme-y2k"
+    ]
+  ],
+  "linked": [],
+  "access": "public",
+  "baseBranch": "main",
+  "updateInternalDependencies": "patch",
+  "ignore": ["@khameleon/storybook", "@khameleon/sandbox"]
+}

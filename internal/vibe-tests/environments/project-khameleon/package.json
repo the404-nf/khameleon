@@ -1,0 +1,14 @@
+{
+  "name": "my-app",
+  "private": true,
+  "dependencies": {
+    "@khameleon/core": "*",
+    "@khameleon/theme-neutral": "*",
+    "@stylexjs/stylex": "^0.10",
+    "react": "^19",
+    "react-dom": "^19"
+  },
+  "devDependencies": {
+    "@khameleon/cli": "*"
+  }
+}
