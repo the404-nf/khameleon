@@ -48,7 +48,7 @@
     "build": "khameleon theme build src/khameleonTheme.ts -o dist/theme.css && tsup && tsc --project tsconfig.build.json"
   },
   "dependencies": {
-    "lucide-react": "^1.18.0"
+    "lucide-react": "^1.25.0"
   },
   "peerDependencies": {
     "@khameleon/core": "0.1.6",
