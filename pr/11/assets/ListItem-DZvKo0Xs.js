@@ -1,0 +1,26 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{t}from"./react-BZJXY1be.js";import{n}from"./mergeProps-JRyAvMxc.js";import{n as r,t as i}from"./themeProps-DRQoVAIO.js";import{t as a}from"./jsx-runtime-DeHZSEgm.js";import{n as o,t as s}from"./Item-DzZhuJbc.js";var c,l;function u(){return(u=e((()=>{c=t(),l=(0,c.createContext)(null),l.displayName=`ListContext`})))()}function d({label:e,description:t,startContent:i,endContent:a,onClick:o,href:c,target:u,rel:d,isDisabled:g=!1,isSelected:_=!1,xstyle:v,className:y,style:b,ref:x,...S}){let C=(0,f.use)(l),w=C?.density??`balanced`,T=C?.hasDividers??!1,E=C?.listStyle??`none`;return(0,p.jsx)(s,{as:`li`,ref:x,marker:E===`disc`?(0,p.jsx)(`span`,{className:`khameleonoi2r2e khameleon9f619 khameleon78zum5 khameleon6s0dn4 khameleonl56j7k khameleon2lah0s khameleon12xnipv khameleon1233pnv`,children:(0,p.jsx)(`span`,{className:`khameleon1v4s8kt khameleonols6we khameleon16rqkct khameleon19aspcf`})}):E===`circle`?(0,p.jsx)(`span`,{className:`khameleonoi2r2e khameleon9f619 khameleon78zum5 khameleon6s0dn4 khameleonl56j7k khameleon2lah0s khameleon12xnipv khameleon1233pnv`,children:(0,p.jsx)(`span`,{className:`khameleon1v4s8kt khameleonols6we khameleon16rqkct khameleonmkeg23 khameleon1y0btm7 khameleonqcx1ss khameleonjbqb8w`})}):E===`decimal`?(0,p.jsx)(`span`,{className:`khameleonoi2r2e khameleon2lah0s khameleon1tgivj0 khameleonjm74w1 khameleonw6l6zx khameleon12xnipv khameleon17vx921`}):null,startContent:i,label:e,description:t,endContent:a,onClick:o,href:c,target:u,rel:d,isDisabled:g,isSelected:_,density:w,xstyle:[E!==`none`&&m.withCounter,T&&m.withDivider,T&&h.noRadius,v],...n(r(`list-item`),{className:y,style:b}),...S})}var f,p,m,h;function g(){return(g=e((()=>{f=t(),u(),o(),i(),p=a(),m={withCounter:{kAmcRD:`khameleonpyn2d5`,$$css:!0},withDivider:{kt9PQ7:`khameleon92x3c3`,kfdmCh:`khameleon1q0q8m5`,kL6WhQ:`khameleonw8gpjh`,kIy1pl:`khameleon1rix2v9`,kx8K5S:null,kTFOXF:null,kdIrg8:null,$$css:!0}},h={noRadius:{kaIpWk:`khameleon2u8bby`,krdFHd:null,kfmiAY:null,kVL7Gh:null,kT0f0o:null,kIxVMA:null,ksF3WI:null,kqGeR4:null,kYm2EN:null,$$css:!0}},d.displayName=`ListItem`,d.__docgenInfo={description:`A list item component for use within List.
+
+Renders structured content with label, description, start/end content areas.
+When \`onClick\` is provided, uses the invisible button pattern for accessibility.
+When \`href\` is provided, uses an invisible anchor pattern.
+
+@example
+\`\`\`
+<ListItem label="Settings" description="Manage your preferences" />
+<ListItem label="Profile" onClick={() => navigate('/profile')} />
+<ListItem label="Docs" href="/docs" target="_blank" rel="noreferrer" />
+\`\`\``,methods:[],displayName:`ListItem`,props:{xstyle:{required:!1,tsType:{name:`StyleXStyles`},description:"StyleX styles created via `stylex.create()`. Merged with the component's\nbase styles inside a single `stylex.props()` call for optimal deduplication.\n\n@example\n```\nconst overrides = stylex.create({ root: { marginBottom: 8 } });\n<Component xstyle={overrides.root} />\n```"},ref:{required:!1,tsType:{name:`ReactRef`,raw:`React.Ref<HTMLLIElement>`,elements:[{name:`HTMLLIElement`}]},description:`Ref forwarded to the root element`},label:{required:!0,tsType:{name:`ReactNode`},description:`Primary text label for the item.
+
+Accepts a plain string (single-line truncation applied automatically)
+or a ReactNode for rich content (no truncation constraints —
+child components control their own text behavior).`},description:{required:!1,tsType:{name:`ReactNode`},description:`Secondary description below the label.
+
+Accepts a plain string (single-line truncation applied automatically)
+or a ReactNode for rich/multi-line content (no wrapping constraints
+applied — child components control their own text behavior).`},startContent:{required:!1,tsType:{name:`ReactNode`},description:`Content rendered before the item (icon, avatar, checkbox).
+Uses start/end naming for RTL support.`},endContent:{required:!1,tsType:{name:`ReactNode`},description:`Content rendered after the item (badge, action button, chevron).`},onClick:{required:!1,tsType:{name:`signature`,type:`function`,raw:`(e: React.MouseEvent) => void`,signature:{arguments:[{type:{name:`ReactMouseEvent`,raw:`React.MouseEvent`},name:`e`}],return:{name:`void`}}},description:`Click handler for interactive items.
+Automatically enables hover/press styles when provided.`},href:{required:!1,tsType:{name:`string`},description:`URL for link items. Renders an invisible anchor element.
+Automatically enables hover/press styles when provided.`},target:{required:!1,tsType:{name:`string`},description:`Link target (e.g., '_blank'). Only used with href.`},rel:{required:!1,tsType:{name:`string`},description:`Link relationship. Automatically includes noopener noreferrer when
+target is "_blank".`},isDisabled:{required:!1,tsType:{name:`boolean`},description:`Whether the item is disabled.
+@default false`,defaultValue:{value:`false`,computed:!1}},isSelected:{required:!1,tsType:{name:`boolean`},description:`Whether the item is currently selected.
+@default false`,defaultValue:{value:`false`,computed:!1}}},composes:[`Omit`]}})))()}export{u as i,g as n,l as r,d as t};
