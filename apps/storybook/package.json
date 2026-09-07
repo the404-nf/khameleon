@@ -15,10 +15,10 @@
     "@khameleon/theme-stone": "*",
     "@khameleon/theme-y2k": "*",
     "@khameleon/vega": "*",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
     "unplugin": "^3.0.0",
-    "vega": "^6.2.0",
+    "vega": "^6.4.0",
     "vega-datasets": "^3.2.1",
     "vega-lite": "^6.4.3"
   },
