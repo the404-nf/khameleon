@@ -1,0 +1,1 @@
+import{i as e}from"./preload-helper-CT_b8DTk.js";var t,n,r,i=e((()=>{t=`data-khameleon-edge-comp`,n={keTefX:`khameleon18t2ck9`,k71WvV:`khameleon74bc9p`,koQZXg:``,km5ZXQ:``,$$css:!0},r={inset:e=>[n,{"--x-12bezuh":(e=>typeof e==`number`?e+`px`:e??void 0)(`calc(-1 * ${e})`),"--x-1wyoit2":(e=>typeof e==`number`?e+`px`:e??void 0)(`calc(-1 * ${e})`)}]}}));export{r as n,i as r,t};
